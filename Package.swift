@@ -20,7 +20,7 @@ let package = Package(
         .library(name: "SpeziLocation", targets: ["SpeziLocation"])
     ],
     dependencies: [
-        .package(url: "https://github.com/StanfordSpezi/Spezi", from: "1.0.0")
+        .package(url: "https://github.com/StanfordSpezi/Spezi", from: "1.8.0")
     ],
     targets: [
         .target(
